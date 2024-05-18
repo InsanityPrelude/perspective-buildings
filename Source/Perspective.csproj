@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<Product>Perspective Buildings</Product>
 		<AssemblyVersion>0.9</AssemblyVersion>
-		<Version>1.4</Version>
+		<Version>1.5</Version>
 		<Copyright>2021</Copyright>
 		<Company>Owlchemist</Company>
 		<TargetFramework>net472</TargetFramework>
@@ -32,7 +32,7 @@
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
 		<PackageReference Include="Lib.Harmony" Version="2.1.1" ExcludeAssets="runtime" />
-		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.2">
+		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3">
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
