@@ -65,7 +65,7 @@ namespace Perspective
 
 			if (this.parent.def.drawerType == DrawerType.MapMeshOnly || this.parent.def.drawerType == DrawerType.MapMeshAndRealTime)
 			{
-				this.parent.Map?.mapDrawer.MapMeshDirty(this.parent.Position, MapMeshFlag.Things);
+				this.parent.Map?.mapDrawer.MapMeshDirty(this.parent.Position, MapMeshFlagDefOf.Things);
 			}
 
 			if (isMirrored || currentOffset != zero)
